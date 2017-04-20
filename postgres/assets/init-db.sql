@@ -1,0 +1,6 @@
+CREATE USER testuser;
+CREATE DATABASE testdb;
+ALTER ROLE testuser WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE testdb TO testuser;
+\c testdb
+CREATE EXTENSION IF NOT EXISTS "pg_trgm";
