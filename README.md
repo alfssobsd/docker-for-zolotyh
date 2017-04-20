@@ -8,7 +8,7 @@ app - main go app
   Makefile - build enterypoint
   Dockerfile - how build image 
 cron - cron app
-  assets - file for image
+  assets - files for image
   Makefile - build enterypoint
   Dockerfile - how build image 
  ...
